@@ -1,0 +1,12 @@
+INSERT INTO currencies (code, name, symbol, exchange_rate, created_at, updated_at) VALUES
+('USD', 'United States Dollar', '$', 1.0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('EUR', 'Euro', '€', 0.92, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('JPY', 'Japanese Yen', '¥', 110.0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('GBP', 'British Pound', '£', 0.78, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('AUD', 'Australian Dollar', 'A$', 1.35, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('CAD', 'Canadian Dollar', 'C$', 1.30, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('CHF', 'Swiss Franc', 'CHF', 0.89, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('CNY', 'Chinese Yuan', '¥', 7.12, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('KRW', 'South Korean Won', '₩', 1320.0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('INR', 'Indian Rupee', '₹', 83.1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('VND', 'Vietnamese Dong', '₫', 24500.0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP); 

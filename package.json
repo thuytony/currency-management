@@ -1,0 +1,25 @@
+{
+  "name": "currency-management",
+  "version": "1.0.0",
+  "repository": "git@github.com:thuytony/currency-management.git",
+  "author": "Tony <nguyenthuy220495@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "description": "Currency Management Application - Monorepo with React Native, ReactJS, and Spring Boot",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "install-all": "yarn install",
+    "build": "yarn workspaces run build",
+    "dev:web": "yarn workspace web dev",
+    "dev:backend": "cd apps/backend && mvn spring-boot:run",
+    "dev:postgres": "docker-compose up -d postgres",
+    "docker:up": "docker-compose up --build",
+    "docker:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "packageManager": "yarn@1.22.22"
+}
